@@ -1,0 +1,47 @@
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-align: center;
+}
+
+nav {
+  justify-content: center;
+}
+
+nav a {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.94px;
+  text-align: center;
+}
+
+#landing {
+    text-align: left;
+}
+
+#landing h2,h4,p{
+  text-align: left;
+}
+
+#me-pic {
+  height: 250px;
+  width: 300px;
+}
+
+#projects p {
+  text-align: center;
+}
+
+#tools h{
+
+}
+
+#contact 
+
+form {
+  text-align: left;
+}
