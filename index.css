@@ -36,12 +36,12 @@ nav a {
   text-align: center;
 }
 
-#tools h{
-
-}
-
 #contact 
 
 form {
   text-align: left;
+}
+
+#card1, #card2, #card3 {
+  width: 18rem;
 }
