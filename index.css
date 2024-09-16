@@ -45,3 +45,7 @@ form {
 #card1, #card2, #card3 {
   width: 18rem;
 }
+
+#maps {
+  border: 0;
+}
