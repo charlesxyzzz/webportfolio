@@ -1,201 +1,306 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Capstone 1</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Capstone 1</title>
 
-	<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-	<!-- Google Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-	<!-- External CSS -->
-	<link rel="stylesheet" type="text/css" href="./index.css">
-</head>
-<body>
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+  </head>
 
-	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-light">
-		<div class="container-fluid">
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon">Charles</span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<div class="navbar-nav mx-auto">
-				    <a class="nav-link" href="#landing">Home</a>
-				    <a class="nav-link" href="#projects">Projects</a>
-				   	<a class="navbar-brand" href="#" id="logo">Charles</a>
-				    <a class="nav-link" href="#tools">Tools</a>
-				    <a class="nav-link" href="#contact">Contact</a>
-			  	</div>
-			</div>
-		</div>
-	</nav>
-	<!-- Navbar ends -->
-
-	<!-- Landing page starts -->
-	<section id="landing" class="container-fluid bg-secondary">
-		<div class="row justify-content-center py-md-5 my-md-5 d-flex align-items">
-			<div class="col-md-3 my-5 my-md-0">
-				<img id="me-pic" src="./images/Charles.png" class="img-fluid rounded-circle">
-			</div>
-			<div class="col-md-7" id="text-title">
-				<h2>Charles Galve</h2>
-				<h4>Full Stack Web Developer</h4>
-				<p>
-					As an aspiring Full Stack Developer, I am passionate about mastering both front-end and back-end technologies to build comprehensive and dynamic web applications. Eager to learn and adapt, I am focused on developing my skills in creating intuitive user interfaces and optimizing server-side functionality. My goal is to bridge the gap between design and functionality, crafting solutions that are both user-friendly and technically sound.
-				</p>
-			</div>	
-		</div>
-	</section>
-	<!-- Landing page ends -->
-
-						<!-- My Projects Page Start -->
-						<section id="projects" class="container-fluid my-5 py-5">
-						<h3 class="mb-3">My Projects</h3>
-
-						<div class="d-lg-flex justify-content-center p-md-5">
-							
-							<div id="card1" class="card">
-							  <img src="./images/activity s06.png" class="card-img-top" alt="...">
-							  <div class="card-body text-dark">
-							    <h5 class="card-title">Basic Web Page</h5>
-							    <h6 class="card-subtitle text-muted mb-2"> </h6>
-							    <p class="card-text">A simple, clean landing page design. It features a bold headline, an eye-catching hero section with a call-to-action button, and a brief overview of key benefits. The page also includes a footer with essential navigation links and contact information, ensuring a user-friendly experience that directs visitors toward taking meaningful action.</p>
-							  </div>
-							</div>
-
-							<div id="card2" class="card">
-							  <img src="./images/activity s04.png" class="card-img-top" alt="...">
-							  <div class="card-body text-dark">
-							    <h5 class="card-title">Basic Local-Directory Web Page</h5>
-							    <h6 class="card-subtitle text-muted mb-2"> </h6>
-							    <p class="card-text">A straightforward web page featuring a directory of essential links for easy navigation. Designed for quick access and simplicity, it ensures users can efficiently find and explore key content.</p>
-							  </div>
-							</div>
-
-							<div id="card3" class="card">
-							  <img src="./images/activity s05.png" class="card-img-top" alt="...">
-							  <div class="card-body text-dark">
-							    <h5 class="card-title">HTML Tables and Forms</h5>
-							    <h6 class="card-subtitle text-muted mb-2"> </h6>
-							    <p class="card-text">A fundamental HTML page showcasing tables and forms. The tables are used to display structured data clearly and neatly, while the forms facilitate user input with fields for text, selection, and submission. This page demonstrates basic HTML techniques for organizing information and gathering user responses efficiently.</p>
-							  </div>
-							</div>
-						</div>
-					</section>
-				<!-- My Projects Page Start -->
-
- 
-				<!-- Tools Page Start -->
-	<section id="tools" class="container-fluid my-5 py-5 bg-secondary"><h2>Tools</h2>
-            <div class="container text-center mt-2">
-
-            	<div class="row">
-                <h3>Front End</h3>
-                <div id="core-tools" class="d-flex flex-column rows">
-                    <div id="html-img" class="d-flex justify-content-center col-sm column">
-                        <img width="100" src="images/logo-html5.png"/>
-                        <img width="100" src="images/logo-css3.png"/>
-                    </div>
-                    <div id="css-js" class="d-flex justify-content-center">
-                        <img width="100" src="images/bootstrap.png"/>
-                        <img width="100" src="images/logo-javascript.png"/>
-                    </div>
-                </div>
-                </div>
-
-                <div class="row">
-                <h3>MERN</h3>
-                <div id="core-tools" class="d-flex flex-column col-sm">
-                    <div id="html-img" class="d-flex  justify-content-center">
-                        <img width="100" src="images/logo-mongodb.png"/>
-                        <img width="100" src="images/logo-expressjs.png"/>
-                    </div>
-                    <div id="css-js" class="d-flex justify-content-center">
-                        <img width="100" src="images/logo-react.png"/>
-                        <img width="100" src="images/logo-nodejs.png"/>
-                    </div>
-             		</div>
-             	</div>
-            
-
-                <h3>Other Tools</h3>
-                <div id="core-tools" class="d-flex flex-column">
-                    <div id="html-img" class="d-flex justify-content-center">
-                        <img width="100" src="images/logo-heroku.png"/>
-                        <img width="100" src="images/logo-git.png"/>
-                    </div>
-                    <div id="css-js" class="d-flex justify-content-center">
-                        <img width="100" src="images/logo-postman.png"/>
-                        <img width="100" src="images/logo-sublime-text-3.png"/>
-                    </div>
-                </div>
-            </div>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link" href="#landing">Home</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="navbar-brand" href="#" id="logo">Charles</a>
+            <a class="nav-link" href="#tools">Tools</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
         </div>
-	</section>
-	<!-- Tools Page End -->
+      </div>
+    </nav>
+    <!-- Navbar ends -->
 
-	<!-- Contact Section Start -->
-	<section class="container-fluid" id="contact"><h3>Contact</h3>
-		<a href="https://www.linkedin.com/in/charlesgalve/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s" width="30" height="30"></a>
+    <!-- Landing page starts -->
+    <section id="landing" class="container-fluid bg-secondary">
+      <div
+        class="row justify-content-center py-md-5 my-md-5 d-flex align-items"
+      >
+        <div class="col-md-3 my-5 my-md-0">
+          <img
+            id="me-pic"
+            src="./images/Charles.png"
+            class="img-fluid rounded-circle"
+          />
+        </div>
+        <div class="col-md-7" id="text-title">
+          <h2>Charles Galve</h2>
+          <h4>Full Stack Web Developer</h4>
+          <p>
+            As an aspiring Full Stack Developer, I am passionate about mastering
+            both front-end and back-end technologies to build comprehensive and
+            dynamic web applications. Eager to learn and adapt, I am focused on
+            developing my skills in creating intuitive user interfaces and
+            optimizing server-side functionality. My goal is to bridge the gap
+            between design and functionality, crafting solutions that are both
+            user-friendly and technically sound.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Landing page ends -->
 
-		<a href="https://www.facebook.com/charlesxyzzz"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHHQ1tYDFw8In3ArE11fy-HfaGgjkh5fxd_w&s" width="30" height="30"></a>
+    <!-- My Projects Page Start -->
+    <section id="projects" class="container-fluid my-5 py-5">
+      <h3 class="mb-3">My Projects</h3>
 
-		<a href="https://github.com/charlesxyzzz"><img src="https://avatars.githubusercontent.com/u/9919?s=280&v=4" width="30" height="30"></a>
+      <div class="d-lg-flex d-sm-flex justify-content-center p-md-5">
+        <div id="card1" class="card">
+          <img src="./images/activity s06.png" class="card-img-top" alt="..." />
+          <div class="card-body text-dark">
+            <h5 class="card-title">Basic Web Page</h5>
+            <h6 class="card-subtitle text-muted mb-2"></h6>
+            <p class="card-text">
+              A simple, clean landing page design. It features a bold headline,
+              an eye-catching hero section with a call-to-action button, and a
+              brief overview of key benefits. The page also includes a footer
+              with essential navigation links and contact information, ensuring
+              a user-friendly experience that directs visitors toward taking
+              meaningful action.
+            </p>
+          </div>
+        </div>
 
-		<a href="https://gitlab.com/test6632436/Test"><img src="https://yt3.googleusercontent.com/R6P5skGdZJeM1bebvt3ILeU8k-9tiqE5T198RmBH8SoGXH2gk_Lk-45uZoq6X6pW4a4c9Sqn=s900-c-k-c0x00ffffff-no-rj" width="30" height="30"></a>
+        <div id="card2" class="card">
+          <img src="./images/activity s04.png" class="card-img-top" alt="..." />
+          <div class="card-body text-dark">
+            <h5 class="card-title">Basic Local-Directory Web Page</h5>
+            <h6 class="card-subtitle text-muted mb-2"></h6>
+            <p class="card-text">
+              A straightforward web page featuring a directory of essential
+              links for easy navigation. Designed for quick access and
+              simplicity, it ensures users can efficiently find and explore key
+              content.
+            </p>
+          </div>
+        </div>
 
-		<div class="row">
-			<div class="col-md-6 text-center d-flex flex-column justify-content-center align-items-center py-5 py-md-0" id="contact-image">
-				<h4 id="contact-header" class="pt-5 pb-3">
-					Visit Us
-				</h4>
-				<div class="row">
-					<div class="col-12 mt-5 pt-1 d-flex justify-content-center align-items-center">
-						<div class="row">
-							<div class="col-4">
-								<iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.7312594249424!2d121.03087317691845!3d14.557354685923963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9b8d33b2c6d%3A0xb0c2f766338a92bd!2sZuitt%20Makati!5e0!3m2!1sen!2sph!4v1726458881923!5m2!1sen!2sph" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+        <div id="card3" class="card">
+          <img src="./images/activity s05.png" class="card-img-top" alt="..." />
+          <div class="card-body text-dark">
+            <h5 class="card-title">HTML Tables and Forms</h5>
+            <h6 class="card-subtitle text-muted mb-2"></h6>
+            <p class="card-text">
+              A fundamental HTML page showcasing tables and forms. The tables
+              are used to display structured data clearly and neatly, while the
+              forms facilitate user input with fields for text, selection, and
+              submission. This page demonstrates basic HTML techniques for
+              organizing information and gathering user responses efficiently.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- My Projects Page Start -->
 
-			<div class="col-md-6">
-				<h4 id="contact-header" class="pt-5 pb-3">
-					Message Us
-				</h4>
-				<form class="mt-3">
-					<div class="form-group my-4">
-						<label for="exampleFormControlInput1" class="form-label">Name</label>
-						<input type="text" class="form-control" id="exampleFormControlInput1">
-					</div>
-					<div class="form-group my-4">
-						<label for="exampleFormControlInput1" class="form-label">Email address</label>
-						<input type="email" class="form-control" id="exampleFormControlInput1">
-					</div>
-					<div class="form-group my-4">
-						<label for="exampleFormControlTextarea1" class="form-label">Message</label>
-						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-					</div>
-					<div class="my-5 d-flex justify-content-center">
-						<button id="form-btn" class="btn">Send</button>
-					</div>
-				</form>
-			</div>
-		</div>
-	</section>
-	<!-- Contact Section End -->
+    <!-- Tools Page Start -->
+    <section id="tools" class="container-fluid my-5 py-5 bg-secondary">
+      <h2>Tools</h2>
+      <div class="container text-center mt-2">
+        <div class="row">
+          <div class="col-md-4 col-xs-12">
+            <div class="row">
+              <h3>Front End</h3>
+              <div id="core-tools1" class="d-flex flex-column rows">
+                <div
+                  id="html-img"
+                  class="d-flex justify-content-center col-sm column"
+                >
+                  <img width="100" src="images/logo-html5.png" />
+                  <img width="100" src="images/logo-css3.png" />
+                </div>
+                <div id="css-js" class="d-flex justify-content-center">
+                  <img width="100" src="images/bootstrap.png" />
+                  <img width="100" src="images/logo-javascript.png" />
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-md-4 col-xs-12">
+            <div class="row">
+              <h3>MERN</h3>
+              <div id="core-tools2" class="d-flex flex-column col-sm">
+                <div id="html-img" class="d-flex justify-content-center">
+                  <img width="100" src="images/logo-mongodb.png" />
+                  <img width="100" src="images/logo-expressjs.png" />
+                </div>
+                <div id="css-js" class="d-flex justify-content-center">
+                  <img width="100" src="images/logo-react.png" />
+                  <img width="100" src="images/logo-nodejs.png" />
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-md-4 col-xs-12">
+            <div>
+              <h3>Other Tools</h3>
+              <div id="core-tools3" class="d-flex flex-column">
+                <div id="html-img" class="d-flex justify-content-center">
+                  <img width="100" src="images/logo-heroku.png" />
+                  <img width="100" src="images/logo-git.png" />
+                </div>
+                <div id="css-js" class="d-flex justify-content-center">
+                  <img width="100" src="images/logo-postman.png" />
+                  <img width="100" src="images/logo-sublime-text-3.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tools Page End -->
 
-	<!-- Bootstrap JS -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Contact Section Start -->
+    <section class="container-fluid" id="contact">
+      <h3>Contact</h3>
+      <a href="https://www.linkedin.com/in/charlesgalve/"
+        ><img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s"
+          width="30"
+          height="30"
+      /></a>
 
-</body>
+      <a href="https://www.facebook.com/charlesxyzzz"
+        ><img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHHQ1tYDFw8In3ArE11fy-HfaGgjkh5fxd_w&s"
+          width="30"
+          height="30"
+      /></a>
+
+      <a href="https://github.com/charlesxyzzz"
+        ><img
+          src="https://avatars.githubusercontent.com/u/9919?s=280&v=4"
+          width="30"
+          height="30"
+      /></a>
+
+      <a href="https://gitlab.com/test6632436/Test"
+        ><img
+          src="https://yt3.googleusercontent.com/R6P5skGdZJeM1bebvt3ILeU8k-9tiqE5T198RmBH8SoGXH2gk_Lk-45uZoq6X6pW4a4c9Sqn=s900-c-k-c0x00ffffff-no-rj"
+          width="30"
+          height="30"
+      /></a>
+
+      <div class="row">
+        <div
+          class="col-md-6 text-center d-flex flex-column justify-content-center align-items-center py-5 py-md-0"
+          id="contact-image"
+        >
+          <h4 id="contact-header" class="pt-5 pb-3">Visit Us</h4>
+          <div class="row">
+            <div
+              class="col-12 mt-5 pt-1 d-flex justify-content-center align-items-center"
+            >
+              <div class="row">
+                <div class="col-4">
+                  <iframe
+                    id="maps"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.7312594249424!2d121.03087317691845!3d14.557354685923963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9b8d33b2c6d%3A0xb0c2f766338a92bd!2sZuitt%20Makati!5e0!3m2!1sen!2sph!4v1726458881923!5m2!1sen!2sph"
+                    width="600"
+                    height="450"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <h4 id="contact-header" class="pt-5 pb-3">Message Us</h4>
+          <form class="mt-3">
+            <div class="form-group my-4">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+              />
+            </div>
+            <div class="form-group my-4">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+              />
+            </div>
+            <div class="form-group my-4">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Message</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="my-5 d-flex justify-content-center">
+              <button id="form-btn" class="btn">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End   -->
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
+ 

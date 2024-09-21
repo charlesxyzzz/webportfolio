@@ -49,3 +49,7 @@ form {
 #maps {
   border: 0;
 }
+
+#tools h2 {
+text-align: center;
+}
